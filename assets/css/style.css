@@ -143,17 +143,113 @@ h1.connect {padding-top: 20px;
   }
 
   @media screen and (max-width: 960px) {
-      #aboutme{ width:100%;
+      #aboutme{ width: 30%;
 }
-      #connectme { width:100%; 
+      #connect{ width:20%; margin-left: 600px;
 }
-      #header { width:100%;
+      ul {margin-left:525px;}
+
+       hr.about {width: 400px}
+
+
+       /*--portfolio---*/
+
+       img.pic {padding: 0% 5% 2% 30%; }
+
+
+       /*--Contact--*/
+
+       textarea.name {width: 375px;}
+       
+       textarea.email {width: 375px;}
+
+       textarea.message {width: 375px;}
+
+       button.submit {}
+
 }
+
+
+
+  @media screen and (max-width: 768px) { 
+
+    #aboutme{ width: 50%;
+    height: 20%;
+    margin-left: 50px;
+}
+    #connect{ width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;}
+
+   ul {margin-left:350px;}
+  
+  #name {margin-left: 50px;}
+
+   hr.connect {margin-left: 7%;}
+
+   /*--portfolio---*/
+
+   img.pic {padding: 1%;}
+
+ /*--Contact--*/
+
+       textarea.name {width: 600px;}
+       
+       textarea.email {width: 600px;}
+
+       textarea.message {width:375px;}
+
+       button.submit {}
+
+       #contact {}
+
+
+
+
+}
+  @media screen and (max-width: 640px) {
+
+   #name {width: 50%;
+    margin-left: 0;}
+
+    ul{margin-top: 0px;
+    margin-left: 0;
+    width: 465px;
+    padding-right: 400px;
     }
 
-  @media screen and (max-width: 768px); {
+    #aboutme { width: 40%;
+    height: 28%;
+    font-size: 13px;
+    margin-top: 10px;}
+
+    img.mepic {float: none;
+    margin: 0px 0px 0px 70px;
+    height: 209px;
+    width: 400px;}
+
+    #connect {width: 40%;
+    margin-top: 20px;}
+
+    hr.connect {margin-left: 7%;}
+
+
+      /*--portfolio---*/
+
+    img.pic {padding-left: 25%;}
+
+    #portfolio {    width: 60%;
+    margin-left: 8%;}
+
+    hr.about {width: auto}
+
+    /*--Contact--*/
+
+       textarea.name {width: 500px;}
+       
+       textarea.email {width: 500px;}
+
+       textarea.message {width: 500px;}
+
 
   }
-  @media screen and (max-width: 640px); {
-
-   }
